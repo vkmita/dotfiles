@@ -34,7 +34,8 @@ alias bundle-grep="bundle exec ruby -e 'puts $:' | xargs grep -r"
 
 alias d="docker"
 alias dc="docker-compose"
-alias dd="dc --verbose stop ; dc --verbose build ; dc -f --verbose up"
+alias dcp="docker-compose -f docker-compose.production.yml"
+alias dd="dc --verbose stop ; dc --verbose build ; dc --verbose up"
 alias ddp="dc --verbose stop ; dc -f docker-compose.production.yml --verbose build ; dc -f docker-compose.production.yml --verbose up"
 alias dm="docker-machine"
 
