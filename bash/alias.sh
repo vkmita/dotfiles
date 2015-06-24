@@ -32,6 +32,8 @@ alias bl="bundle --local --quiet"
 alias bul="bundle update --local"
 alias bundle-grep="bundle exec ruby -e 'puts $:' | xargs grep -r"
 
+alias kk="cd ~/Code/knowmadin/knowmad"
+
 alias d="docker"
 alias dc="docker-compose"
 alias dcp="docker-compose -f docker-compose.production.yml"
