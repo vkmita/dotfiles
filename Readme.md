@@ -31,9 +31,4 @@ Secret stuff you do not want to share
 If you add a folder named 'secret' to dotfiles it will also symlink stuff from there.
 e.g. `ln -s /home/micha/Dropbox/Private/dotfiles dotfiles/secret`
 
-### [Contributors](http://github.com/grosser/dotfiles/contributors)
- - [Roman Heinrich](http://github.com/mindreframer)
-
-[Michael Grosser](http://grosser.it)<br/>
-michael@grosser.it<br/>
 License: MIT
