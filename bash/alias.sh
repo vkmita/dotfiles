@@ -14,15 +14,15 @@ function git-find-merge() {
   git rev-list $1..master --ancestry-path | grep -f <(git rev-list $1..master --first-parent) | tail -1
 }
 
-#Ubuntu
+# Ubuntu
 # alias install="sudo apt-get install"
 # alias remove="sudo apt-get remove"
 # alias erase="wipe -crqQ1" # rename + overwrite + remove files
 
-#GIT
+# GIT
 alias master='git co master'
 
-#Rails
+# Rails
 alias ttr="touch tmp/restart.txt"
 
 # RUBY
@@ -31,3 +31,11 @@ alias b="bundle check 2>&1 > /dev/null || { ((test -d vendor/cache && bundle --l
 alias bl="bundle --local --quiet"
 alias bul="bundle update --local"
 alias bundle-grep="bundle exec ruby -e 'puts $:' | xargs grep -r"
+
+alias d="docker"
+alias dc="docker-compose"
+alias dd="dc --verbose stop ; dc --verbose build ; dc --verbose up"
+alias dm="docker-machine"
+
+alias prod="eval '$(dm env production.knowmad)' ; dm ls"
+alias dev="eval '$(dm env dev.knowmad)' ; dm ls"
