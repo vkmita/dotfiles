@@ -36,9 +36,9 @@ alias kk="cd ~/Code/knowmadin/knowmad"
 
 alias d="docker"
 alias dc="docker-compose"
-alias dcp="docker-compose -f docker-compose.production.yml"
+alias dcp="docker-compose -f docker-compose.prod.yml"
 alias dd="dc --verbose stop ; dc --verbose build ; dc --verbose up"
-alias ddp="dc --verbose stop ; dc -f docker-compose.production.yml --verbose build ; dc -f docker-compose.production.yml --verbose up"
+alias ddp="dc --verbose stop ; dc -f docker-compose.prod.yml --verbose build ; dc -f docker-compose.prod.yml --verbose up"
 alias dm="docker-machine"
 
 alias prod="eval '$(dm env production.knowmad)' ; dm ls"
