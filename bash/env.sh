@@ -1,4 +1,3 @@
-export EDITOR="ruco"
 export PATH="~/dotfiles/bin:~/dotfiles/secret/bin:/usr/local/bin:$PATH"
 export CLICOLOR=1 # colors for e.g. ls on mac
 export RBXOPT="-Xrbc.db" # do not clutter up everything with .rbc files when using rubinius

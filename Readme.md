@@ -3,7 +3,7 @@ My dotfiles, have a look, try them, give me hints for improvement...
 Install
 =======
 
-    cd ~ && git clone git://github.com/grosser/dotfiles.git
+    cd ~ && git clone git://github.com/vkmita/dotfiles.git
 
 Manual Install
 --------------
@@ -17,7 +17,7 @@ Automatic install
 -----------------
 
 ```Bash
-curl -L https://raw.github.com/grosser/dotfiles/master/autoload.sh | bash -s master
+curl -L https://raw.github.com/vkmita/dotfiles/master/autoload.sh | bash -s master
 ```
 
 it runs `install.rb` which will:
