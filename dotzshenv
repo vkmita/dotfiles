@@ -1,0 +1,11 @@
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
+export PATH=$PATH:/usr/local/bin
+export PATH=$PATH:/Users/victorkmita/.npm/bin
+export PATH=$PATH:/Users/vkmita/Library/Python/2.7/bin
+
+source ~/dotfiles/bash/env.sh
+source ~/dotfiles/bash/alias.sh
+source ~/dotfiles/bash/git_prompt.sh
+export PATH="/Users/vkmita/.ebcli-virtual-env/executables:$PATH"
